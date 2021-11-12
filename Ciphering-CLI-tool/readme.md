@@ -23,7 +23,7 @@ For example, config `"C1-C1-R0-A"` means "encode by Caesar cipher => encode by C
 
 ## Details:
 
-1. The task **Ciphering CLI Tool** is solved using only **pure Node.js**. 
+1. The task **Ciphering CLI Tool** is solved using only **pure Node.js**.
 2. `Config` option is required. In case of `Config` option is not passed - error will be printed in `stderr` with message `"Error! Config is required."` and the process will exit with status code **1**.
 3. `Config` option is validated. In case of invalid confing error will be printed in `stderr` with message `"Error! Option: ${option} is not valid or doesn't exist."` and the process will exit with status code  **1**.
 4. If any option is duplicated (i.e. `bash $ node my_ciphering_cli -c C1-C1-A-R0 -c C0`) - error will be printed in `stderr` with message `"Error! Option: **duplicated option** is not valid or doesn't exist."` and the process should exit with status code **1**.
@@ -37,14 +37,15 @@ For example, config `"C1-C1-R0-A"` means "encode by Caesar cipher => encode by C
 12. Streams are piped inside each other according to `config`.
 
 ### Prerequisites
-1. Install [Node.js](https://nodejs.org/en/download/)   
-2. Fork this repository: https://github.com/alexkrv07/______/
-3. Clone your newly created repo: https://github.com/<%your_github_username%>/______/  
-4. Go to folder `________`. 
-5. Run program. 
+1. Install [Node.js](https://nodejs.org/en/download/)
+2. Clone this repository: git clone git@github.com:alexkrv07/NODEJS-2021Q4.git
+3. Go to folder NODEJS-2021Q4: `cd NODEJS-2021Q4`
+4. Checkout branch: `git checkout origin/Ciphering-CLI-tool`
+4. Go to folder Ciphering-CLI-tool: `cd Ciphering-CLI-tool`.
+5. Run program.
 5. To exit, enter ```ctrl + c```.
-6. **Usage example:** 
- 
+6. **Usage example:**
+
 
 ```bash
 $ node my_ciphering_cli -c "C1-C1-R0-A" -i "./input.txt" -o "./output.txt"
