@@ -38,7 +38,7 @@ For example, config `"C1-C1-R0-A"` means "encode by Caesar cipher => encode by C
 
 ### Prerequisites
 1. Install [Node.js](https://nodejs.org/en/download/)
-2. Clone this repository: git clone git@github.com:alexkrv07/NODEJS-2021Q4.git
+2. Clone this repository: `git clone git@github.com:alexkrv07/NODEJS-2021Q4.git`
 3. Go to folder NODEJS-2021Q4: `cd NODEJS-2021Q4`
 4. Checkout branch: `git checkout origin/Ciphering-CLI-tool`
 4. Go to folder Ciphering-CLI-tool: `cd Ciphering-CLI-tool`.
