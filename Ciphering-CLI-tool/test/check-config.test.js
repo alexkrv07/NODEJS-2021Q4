@@ -1,5 +1,4 @@
 const { parseInputLine } = require('../src/options');
-const { AllowedOptionError, ConfigRequiredError, DuplicatedOptionError, InputFileError, OutputFileError,  ValidationError, NotValidOptionError } = require('../src/errors');
 
 
 test('Test duplicate config', () => {
